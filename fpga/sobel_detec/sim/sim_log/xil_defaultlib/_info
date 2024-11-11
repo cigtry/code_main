@@ -1,0 +1,212 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/desktop/git/code/fpga/sobel_detec/sim/sim_log
+T_opt
+!s110 1726412519
+VQe2[fbWZnL]?R`Ra4`[9a1
+04 9 4 work testbench fast 0
+=1-00e269775e9c-66e6f6e7-1dd-15ac
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vbmp_for_videoStream
+!s10a 1720418561
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1726411746
+!i10b 1
+!s100 A>CHN^d0bzX38H=iE:3KM0
+I9Q4oYoC:AI9Uf>;bQR?aY0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 bmp_for_videoStream_sv_unit
+S1
+R0
+w1720418561
+8../../sim/bmp_for_videoStream.sv
+F../../sim/bmp_for_videoStream.sv
+L0 6
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1726411746.000000
+Z7 !s107 ../../src/rgb2ycbcr.v|../../sim/bmp_for_videoStream.sv|../../sim/bmp_to_videoStream.sv|../../src/sobel_detec.v|../../src/sqrt.v|../../src/sync_fifo.v|../../src/generate_3x3_winndows.v|
+Z8 !s90 -reportprogress|300|-incr|+cover|-work|xil_defaultlib|-f|../design_ver.f|
+!i113 0
+Z9 !s102 +cover
+Z10 o+cover -work xil_defaultlib
+R1
+nbmp_for_video@stream
+vbmp_to_videoStream
+!s10a 1726409304
+R2
+R3
+!i10b 1
+!s100 Y9X9Hdnhd4f];ShGH;fAk3
+Iamhb^8@BUzPe09=DSWnnB3
+R4
+!s105 bmp_to_videoStream_sv_unit
+S1
+R0
+w1726409304
+8../../sim/bmp_to_videoStream.sv
+F../../sim/bmp_to_videoStream.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+nbmp_to_video@stream
+vgenerate_3x3_winndows
+!s110 1726412518
+!i10b 1
+!s100 IQBX4<D_OYh`acXASVBkB1
+IGS1YigX8YPfkobWCbMFi80
+R4
+R0
+w1726412513
+8../../src/generate_3x3_winndows.v
+F../../src/generate_3x3_winndows.v
+Z11 L0 26
+R5
+r1
+!s85 0
+31
+!s108 1726412518.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vrgb2ycbcr
+!s10a 1720419426
+R3
+!i10b 1
+!s100 =SaNl2_lk9i[j>5`_Am6W1
+IMI:KNm>>gcaQh=lmL?3BT2
+R4
+R0
+w1720419426
+8../../src/rgb2ycbcr.v
+F../../src/rgb2ycbcr.v
+L0 16
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vsobel_detec
+!s10a 1717386189
+R3
+!i10b 1
+!s100 oTLJ@g`I<_f_JAm_]nF8l1
+I0SG]0iL3g5:SiA`AjW[`?1
+R4
+R0
+w1717386189
+8../../src/sobel_detec.v
+F../../src/sobel_detec.v
+R11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vsqrt
+!s10a 1679973960
+R3
+!i10b 1
+!s100 5CTo[H?U]?oW1OmFRTlU02
+IJRKY3LzCGzHT=K8DfT80=0
+R4
+R0
+w1679973960
+8../../src/sqrt.v
+F../../src/sqrt.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vsync_fifo
+!s10a 1716881010
+R3
+!i10b 1
+!s100 50aDIh4e872boi`280a7C1
+IYRH3iek0lH^@c[0[EdAZe1
+R4
+R0
+w1716881010
+8../../src/sync_fifo.v
+F../../src/sync_fifo.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vtestbench
+!s10a 1726409337
+R2
+R3
+!i10b 1
+!s100 k=hMG5blXGn=R8H:cW1A>0
+I5A>[5j_MfzY<:?n5czW];1
+R4
+!s105 testbench_sv_unit
+S1
+R0
+w1726409337
+8../testbench.sv
+F../testbench.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../testbench.sv|
+!s90 -reportprogress|300|-sv|-incr|-work|xil_defaultlib|../testbench.sv|
+!i113 0
+o-sv -work xil_defaultlib
+R1

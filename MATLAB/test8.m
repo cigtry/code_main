@@ -1,0 +1,11 @@
+clc;clear all;close all;
+fram_data = '../xx/0.dat';
+fram3_jpg = '../xx/77.jpg';
+jpg1=imread(fram3_jpg); 
+jpg1 = rgb2gray(jpg1);
+fid = fopen(fram_data,'wt');
+fwrite(fid,jpg1,'uint16');
+fclose(fid);
+fileid4= '../xx/0.dat';  
+jpg2='../picture/0.jpg'; 
+display_data(fileid4,jpg2);
